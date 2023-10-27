@@ -1,0 +1,43 @@
+body{
+    font-family: 'Spartan', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'league_spartanbold';
+}
+
+
+
+.d-flex{
+    display:flex
+}
+.flex-space-between{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap
+}
+.justify-content-center{
+    justify-content:center
+}
+.align-center{
+    align-items:center
+}
+.text-center{
+    text-align:center
+}
+.flex-wrap{
+    display:flex;
+    flex-wrap:wrap
+}
+.flex-nowrap{
+    display:flex;
+    flex-wrap:nowrap
+}
+.flex-row-reverse,.row-reverse{
+    flex-flow:row-reverse
+}
+.flex-row-none{
+    flex-flow:inherit!important
+}
